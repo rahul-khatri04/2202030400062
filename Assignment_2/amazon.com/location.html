@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amazon Project</title>
+
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/shared/general.css">
+    <link rel="stylesheet" href="styles/shared/amazon-header.css">
+    <link rel="stylesheet" href="styles/pages/amazon.css">
+    <link rel="stylesheet" href="styles/laguuage.css">
+    <link rel="stylesheet" href="styles/tracking.css">
+  </head>
+  <body>
+    <div class="amazon-header">
+      <div class="amazon-header-left-section">
+        <a href="amazon.html" class="header-link">
+          <img class="amazon-logo"
+            src="images/amazon-logo-white.png">
+          <img class="amazon-mobile-logo"
+            src="images/amazon-mobile-logo-white.png">
+        </a>
+      </div>
+
+      <div class="nav-address border mobile-hidden">
+        <a href="location.html" style="text-decoration: none; color: white;">
+            <p class="add-content-first">Deliver to</p>
+
+        <div class="add-location">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="location">Ahmedabad</p>
+        </div>
+        </a>
+    </div>
+
+      <div class="amazon-header-middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+
+        <button class="search-button">
+          <img class="search-icon" src="images/icons/search-icon.png">
+        </button>
+      </div>
+
+      <div class="account-box nav-same-format border mobile-hidden">
+        <a href="login.html">
+        <p><span>Hello, sign in</span></p>
+        <p>Account & Lists <img src="./images/down-arrow.png"></p>
+      </a>
+    </div>
+    <div class="account-box nav-same-format border mobile-hidden">
+      <a href="language.html">
+      <p><span>ENG</span></p>
+    </a>
+  </div>
+
+      <div class="amazon-header-right-section">
+        <a class="orders-link header-link" href="orders.html">
+          <span class="returns-text">Returns</span>
+          <span class="orders-text">& Orders</span>
+        </a>
+
+        <a class="cart-link header-link" href="checkout.html">
+          <img class="cart-icon" src="images/icons/cart-icon.png">
+          <div class="cart-quantity">3</div>
+          <div class="cart-text">Cart</div>
+        </a>
+      </div>
+    </div>
+    
+    <div class="main">
+        <div class="container2">
+            <h3>Choose your location</h3>
+            <hr>
+
+            <p id="title1">Select a delivery location to see product availability and delivery options
+            </p>
+
+            <button id="btn2">Sign in to see your addresses</button>
+            <hr>
+            <p id="title2">or enter an Indian pincode</p>
+            <input class="input"><button id="btn1">Apply</button>
+
+        </div>
+    </div>
+  </body>
+</html>
